@@ -1,5 +1,5 @@
 import React from 'react'
-import About from './components/About'
+import About from './components/About.js'
 import Buttons from './components/Buttons'
 import Footer from './components/Footer'
 import Info from './components/Info'
