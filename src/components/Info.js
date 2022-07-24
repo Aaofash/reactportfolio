@@ -2,10 +2,10 @@ import React from 'react'
 export default function Info() {
     return(
         //for the classNames i used cl for clients
-        <div>
-            <span className='cl-name'>Laura Smith</span>
-            <span className='cl-job'>Frontend Developer</span>
-            <span className='cl-website'>laurasmith.website</span>
-        </div>
+        <ul className='cl-info'>
+            <li className='cl-name'>Fasakin Adedamola</li>
+            <li className='cl-job'>Frontend Developer</li>
+            <li className='cl-website'>Aaofash.website</li>
+        </ul>
     )
 }

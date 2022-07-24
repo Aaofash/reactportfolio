@@ -1,13 +1,128 @@
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Inter, sans-serif;
+  background-color: silver
+}
+.container{
+  background-color: white;
+  margin-left: 110px;
+  max-width: 220px;
+  border-radius: 6px;
+  margin-top: 30px;
+}
+.pic-div{
+  text-align: center;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.cl-pic {
+  width: 220px;
+  height: 200px;
+  border-radius: 6px;
+}
+.cl-info{
+  list-style-type: none;
+  text-align: center;
+  padding-right: 40px;
+  color: black;
+  margin-top: 4px;
+  margin-bottom: 3px;
+}
+.cl-info > .cl-name{
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 1.1px
+}
+.cl-info > .cl-job{
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 1.1px;
+
+}
+.cl-info > .cl-website{
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 1.1px; 
+}
+.buttons-div{
+  text-align: center;
+}
+.linked-pic, .email-pic{
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+  margin-bottom: 5px; 
+  padding-right: 5px;
+}
+.email-btn{
+  background-color: black;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  font-size: 10px;
+  width: 80px;   
+  margin-right: 10px;
+}
+.email-btn:hover{
+  background-color: white;
+  color: black;
+}
+.linked-btn{
+  border-radius: 6px;
+  color: white;
+  background-color: cornflowerblue;
+  border: none;
+  font-size: 10px;
+  width: 80px;
+}
+.linked-btn:hover{
+  background-color: white;
+  color: black;
+}
+.about-text{
+  font-size: 10px;
+  max-width: 200px;
+  color: black;
+  padding-left: 20px;
+}
+.about-text > h3{
+  line-height: 4px;
+  letter-spacing: 1.1px;
+}
+.footer-div{
+  padding-top: 5px; 
+}
+.twitter-btn, .facebook-btn, .instagram-btn, .github-btn{
+  border-radius: 6px;
+  border: none;
+  font-size: 13px;
+  width: 20px; 
+}
+.twitter-pic, .facebook-pic, .instagram-pic, .github-pic{
+  height: 18px;
+  width: 20px;
+  vertical-align: middle;
+  margin-bottom: 5px; 
+  padding-right: 5px;
+  margin:auto;
+}
+.twitter-btn{
+  margin-left: 35px;
+}
+.twitter-btn:hover, .facebook-btn:hover, .instagram-btn:hover, .github-btn:hover{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+.facebook-btn{
+  margin-left: 15px;
+}
+.instagram-btn{
+  margin-left: 15px;
+}
+.github-btn{
+  margin-left: 15px;
 }
